@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>New Student Registration</title>
+    <style>
+      body {
+        background-image: url("http://localhost/php/college/image/studentreg1.png");
+        background-size: 1361px 800px; /* set the size of the background image */
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      table {
+  border: 1px black;
+  background-color: white;
+}
+
+     th {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>New Student Registration</h1>
+      <hr><br>
+      <table>
+        <form method="post" action="http://localhost/php/college/code/updetail.php">
+          <tr>
+            <th><b>Field</b></th>
+            <th><b>Value</b></th>
+          </tr>
+          <tr>
+            <td><b>Register No:</b></td>
+            <td><input type="number" name="t1" value="Enter registerno:"></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+<center>
+              <input type="submit" name="b1" value="Submit">
+              <input type="reset" name="b2" value="Reset"
+
+</center>
+            </td>
+          </tr>
+        </form>
+      </table>
+      <br><b>
+      <a href="adminlogin.html"><img src="http://localhost/php/college/image/buttonadlog.png"></a>
+      </b><br>
+    </center>
+  </body>
+</html>

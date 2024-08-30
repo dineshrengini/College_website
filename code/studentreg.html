@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>New Student Registration</title>
+    <style>
+      body {
+        background-image: url("http://localhost/php/college/image/studentreg1.png");
+        background-size: 1361px 800px; /* set the size of the background image */
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      table {
+  border: 1px black;
+  background-color: white;
+}
+
+     th {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>New Student Registration</h1>
+      <hr><br>
+      <table>
+        <form method="post" action="http://localhost/php/college/code/getnewst.php">
+          <tr>
+            <th><b>Field</b></th>
+            <th><b>Value</b></th>
+          </tr>
+          <tr>
+            <td><b>Register No:</b></td>
+            <td><input type="number" name="t1" value=""></td>
+          </tr>
+          <tr>
+            <td><b>Name:</b></td>
+            <td><input type="text" name="t2" value=""></td>
+          </tr>
+          <tr>
+            <td><b>Date of Birth:</b></td>
+            <td><input type="date" name="t3" value=""></td>
+          </tr>
+          <tr>
+	     <tr>
+            <td><b>Blood Group:</b></td>
+            <td><input type="text" name="t4" value=""></td>
+          </tr>
+          <tr>
+            <td><b>Adress:</b></td>
+            <td><input type="text" name="t5" value=""></td>
+          </tr>
+		<tr>
+            <td><b>Department:</b></td>
+            <td><input type="text" name="t6" value=""></td>
+          </tr>
+          <tr>
+          <tr>
+            <td><b>Phone no:</b></td>
+            <td><input type="number" name="t7" value=""></td>
+          </tr>
+          <tr>
+            <td><b>Email Id:</b></td>
+            <td><input type="email" name="t8" value=""></td>
+          </tr>
+          <tr>
+            <td><b>Fees:</b></td>
+            <td><input type="text" name="t9" value=""></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+<center>
+              <input type="submit" name="b1" value="Register">
+              <input type="reset" name="b2" value="Reset"
+
+</center>
+            </td>
+          </tr>
+        </form>
+      </table>
+      <br><b>
+      <a href="adminlogin.html"><img src="http://localhost/php/college/image/buttonadlog.png"></a>
+      </b><br>
+    </center>
+  </body>
+</html>

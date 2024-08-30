@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New User Registration</title>
+    <style>
+      body {
+        background-image: url("http://localhost/php/college/image/new user.png");
+        background-size: 1300px 750px; /* set the size of the background image */
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      table {
+  border: 1px solid black;
+}
+
+     th {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>New User</h1>
+      <hr>
+      <table>
+        <form method="post" action="http://localhost/php/college/code/getnewuser.php">
+          <tr>
+            <th>Field</th>
+            <th>Value</th>
+          </tr>
+          <tr>
+            <td>Employee Id :</td>
+            <td><input type="number" name="t1" value=""></td>
+          </tr>
+          <tr>
+            <td>First name:</td>
+            <td><input type="text" name="t2" value=""></td>
+          </tr>
+          <tr>
+            <td>Last name:</td>
+            <td><input type="text" name="t3" value=""></td>
+          </tr>
+          <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="t4" value=""></td>
+          </tr>
+          <tr>
+            <td>Adress:</td>
+            <td><input type="text" name="t5" value=""></td>
+          </tr>
+          <tr>
+            <td>Phone no:</td>
+            <td><input type="number" name="t6" value=""></td>
+          </tr>
+          <tr>
+            <td>Grade:</td>
+            <td><input type="text" name="t7" value=""></td>
+          </tr>
+          <tr>
+            <td>Subject:</td>
+            <td><input type="text" name="t8" value=""></td>
+          </tr>
+          <tr>
+            <td>Classes:</td>
+            <td><input type="text" name="t9" value=""></td>
+          </tr>
+          <tr>
+            <td>Email Id:</td>
+            <td><input type="email" name="t10" value=""></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" name="t11"></td>
+          </tr>
+          <tr>
+<tr>
+            <td>Deparment:</td>
+            <td><input type="text" name="t12"></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+<center>
+              <input type="submit" name="b1" value="Register">
+              <input type="reset" name="b2" value="Reset">
+</center>
+            </td>
+          </tr>
+        </form>
+      </table>
+      <br>
+      <a href="adminlogin.html">GO Back</a>
+      <br>
+      <b>Given mail id is the user name </b>
+    </center>
+  </body>
+</html>
